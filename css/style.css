@@ -38,6 +38,10 @@ input {
   border: 0.1rem solid #d3d3d3;
 }
 
+label {
+  display: none;
+}
+
 ul {
   margin: 1rem 0;
   list-style-type: none;
@@ -54,7 +58,7 @@ a {
 }
 
 button {
-  background-color: #008CBA;
+  background-color: #006a8d;
   border: none;
   color: white;
   padding: 0.5rem 1rem;

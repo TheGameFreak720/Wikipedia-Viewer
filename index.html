@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wikipedia Viewer</title>
-  <link rel="icon" href="img/wikipedia-logo.png">
+  <link rel="icon" href="./img/wikipedia-logo.png">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -14,12 +14,13 @@
     <header>
       <h1>Wikipedia Viewer</h1>
       <h2>FreeCodeCamp Zipline</h2>
-      <a target="blank" href="https://en.wikipedia.org/wiki/Special:Random">
-        <img class="random" src="img/wikipedia-logo.png">
+      <a target="blank" rel="noopener" href="https://en.wikipedia.org/wiki/Special:Random">
+        <img class="random" src="./img/wikipedia-logo.png" alt="wikipedia logo">
       </a>
     </header>
     <section class="search-bar">
-      <input id="searchTerm" type="text" placeholder="Search..">
+      <label for="search-input">Search Input</label>
+      <input id="search-input" type="text" placeholder="Search..">
       <button id="search" type="button">Submit</button>
     </section>
     <ul id="output">
