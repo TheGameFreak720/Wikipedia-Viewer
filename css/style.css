@@ -33,6 +33,9 @@ header > * {
 input {
   width: 100%;
   margin: 1rem 0;
+  height: 1rem;
+  padding: 0.5rem;
+  border: 0.1rem solid #d3d3d3;
 }
 
 ul {
@@ -43,7 +46,7 @@ ul {
 li {
   padding: 1rem;
   margin: 1rem;
-  border: 0.5rem solid #d3d3d3;
+  border: 0.2rem solid #d3d3d3;
 }
 
 a {
@@ -62,10 +65,11 @@ button {
 }
 
 .random {
-  width: 100px;
-  height: 100px;
+  width: 6rem;
+  height: 6rem;
 }
 
-.copyright {
+footer {
   text-align: center;
+  margin: 1rem 0;
 }
