@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <title>Wikipedia Viewer</title>
   <link rel="icon" href="img/wikipedia-logo.png">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <script src="js/wiki.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
   <div class="container">
-    <!-- Title -->
-    <div class="text-center">
+    <header>
       <h1>Wikipedia Viewer</h1>
-      <h4>FreeCodeCamp Zipline</h4>
+      <h2>FreeCodeCamp Zipline</h2>
       <a target="blank" href="https://en.wikipedia.org/wiki/Special:Random">
         <img class="random" src="img/Wikipedia-logo.png">
       </a>
-    </div>
-    <!-- Search bar -->
-    <input class="from-control" id="searchTerm" type="text" placeholder="Search..">
-    <button id="search" type="button" class="btn btn-primary">Submit</button>
-    <!-- Output Search -->
+    </header>
+    <section class="search-bar">
+      <input id="searchTerm" type="text" placeholder="Search..">
+      <button id="search" type="button">Submit</button>
+    </section>
     <ul id="output">
     </ul>
-    <!-- Copyright -->
-    <p class="copyright">Copyright &copy Luis Alvarez 2017</p>
+    <footer class="copyright">Copyright &copy Luis Alvarez 2020</footer>
   </div>
 </body>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src="js/wiki.js"></script>
 </html>
